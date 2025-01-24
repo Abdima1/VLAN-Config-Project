@@ -1,0 +1,16 @@
+Based on the clients requirements, follow the documentation to configure the switch provided.
+
+1: Configure the correct Ip address subnet mask on each pc.
+1.a set the gateway address as the last usable address of the subnet
+
+2: Make three connections between R1 and Sw1.
+configure one interface on R1 for each VLAN
+make sure the Ip address are the gateway address you configured on the Pcs
+
+3: Configure SW1 interface in the proper VLANS remember the interface that connect to R1 and Name the VLANS ( Finance sales engineering and Hr)
+
+4: Once done ping the pc's to see if they are communicating.
+
+
+5: Teams the senior Engineers to review the configuration before closing the
+project.
