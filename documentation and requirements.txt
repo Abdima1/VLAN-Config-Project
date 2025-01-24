@@ -1,0 +1,20 @@
+Based on the requirements by the network architect, make the following configuration.
+
+1: Configure the correct IP address/subnet mask on each pc.
+
+	1.a set the gateway address as the last usable address of the subnet
+
+2: Make three connections between R1 and SW1.
+	configure one interface on R1 for each VLAN
+	1.b make sure the ip address are the gateway address you configured 	on the address you configured on the Pcs.
+
+3: configure SW1 interface in the proper VLANS.
+  	1.a remember the interface that connects to R1
+
+	1.b Name the VLAN to the following departments( Engieering,HR,SALES)
+
+4: Ping between the Pc's to check the connectivity.
+	4.a send a broadcast ping from a pc (ping the subnet broadcast address) and see which pc devices receives the broadcast.
+
+
+5: Once done connect with Senior engineers to test and prove the work before closing the project
